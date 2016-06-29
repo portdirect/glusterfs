@@ -1,4 +1,4 @@
-FROM %%DOCKER_NAMESPACE%%/%%DOCKER_PREFIX%%base-minimal:%%DOCKER_TAG%%
+FROM port/base-minimal:latest
 ENV OPENSTACK_COMPONENT="glusterfs" \
     OPENSTACK_SUBCOMPONENT="base"
 
